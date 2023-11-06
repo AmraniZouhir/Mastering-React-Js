@@ -93,6 +93,14 @@ export default function FormsReactuseRef() {
   }}
   >Save</button>
         </div>
+        <div className="form-check">
+  <button className="btn btn-premary" 
+  onClick={(e)=>{
+    console.log(inputNameRef.current.value)
+    e.preventDefault()
+  }}
+  >Save</button>
+        </div>
 
 
 
