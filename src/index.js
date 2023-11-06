@@ -3,12 +3,56 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HelloWord from './Hellow Word/hellow-word';
+import TextForms from './Forms/TextFormFild';
+import Fruit from './Fruits/Fruits';
+import Counter from './Counter/Counter';
+import Button from './Event/Event';
+import Forms from './Form/Formuler';
+import Fruts from './FrutsAdd/FrutsAdd';
+import FormsReactuseState from './FormsReact/FormsUseState';
+import FormsReactuseRef from './FormsReact/FormsUseRef';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const fruitsArray = [
+            'Applel',
+            'Banana',
+            'Lemion',
+            'Oronge',
+            'dd',
+            'dd',
+            'dd',
+            'dd',
+]
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <FormsReactuseRef/>
+/* <FormsReactuseState/> */
+
+
+  // <Fruts />
+  // <Forms/>
+
+/* <Button /> */
+
+//  <Counter initsialValu ={2} staps={2} />  
+
+
+    /* <Fruit fruits={fruitsArray}/> */
+
+    /* <HelloWord lastname='Zouhir Amrani' />
+
+    <TextForms inputname='lastname' labelltext='write your last name ' >
+      Entre votre last name
+
+    </TextForms>
+
+    <br />
+    <TextForms inputname='name' labelltext='write your name ' >
+
+      Entre votre name
+    </TextForms> */
+
 );
 
 // If you want to start measuring performance in your app, pass a function
