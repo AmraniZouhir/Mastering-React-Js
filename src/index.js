@@ -13,6 +13,7 @@ import Fruts from './FrutsAdd/FrutsAdd';
 import FormsReactuseState from './FormsReact/FormsUseState';
 import FormsReactuseRef from './FormsReact/FormsUseRef';
 import PageParent from './LanguageSwitherPassingData/PageParent ';
+import FormsValidation from './FormsValidation/FormValidationBiginer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -27,8 +28,8 @@ const fruitsArray = [
             'dd',
 ]
 root.render(
-
-  <PageParent />
+<FormsValidation/>
+  // <PageParent />
   // <FormsReactuseRef/>
 /* <FormsReactuseState/> */
 

@@ -3,7 +3,7 @@ export default  function LanguageSwitcher({onLanguageChange}){
    const handelLangChange =(e)=>{
         e.preventDefault()
         // console.log()
-        onLanguageChange(e.currentTarget.dataset.lang)
+        onLanguageChange(e.currentTarget.dataset.lang) // y3ni hna dwzna data mn chail l parent f function 
     }
 
     return <>
