@@ -12,6 +12,7 @@ import Forms from './Form/Formuler';
 import Fruts from './FrutsAdd/FrutsAdd';
 import FormsReactuseState from './FormsReact/FormsUseState';
 import FormsReactuseRef from './FormsReact/FormsUseRef';
+import PageParent from './LanguageSwitherPassingData/PageParent ';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,7 +27,9 @@ const fruitsArray = [
             'dd',
 ]
 root.render(
-  <FormsReactuseRef/>
+
+  <PageParent />
+  // <FormsReactuseRef/>
 /* <FormsReactuseState/> */
 
 

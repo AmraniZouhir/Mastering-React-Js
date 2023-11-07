@@ -24,9 +24,9 @@ export default function FormsReactuseRef() {
   const handelSave = (e) => {
     e.preventDefault();
 
-    const formData = { // hna matalan b4iti tsift data l base de donne 3la chkl object 
+    const formData = { // hna matalan b4iti tsift data l base de donne 3la chkl object  Ex API
       name: inputNameRef.current.value,
-      prenom: inputPrenomRef.current.value,
+      prenom: inputPrenomRef.current.value, 
     };
     setFormsValus({
       name: inputNameRef.current.value,
@@ -40,7 +40,7 @@ export default function FormsReactuseRef() {
   };
 
 
-// bach ank t3ti chi 9yam par defoult 
+// bach ank t3ti chi 9yam par defoult   hnaya lkholasa hya  NAK ILA B4ITI T9IS CHIHAJAF DOM 9ISHA B USEREF BACH MATRANDRACH LPAGR KOLHA 
   useEffect(() => {
     inputNameRef.current.value = 'zouhir'
     inputPrenomRef.current.focus()
