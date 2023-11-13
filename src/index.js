@@ -16,6 +16,7 @@ import PageParent from './LanguageSwitherPassingData/PageParent ';
 import FormsValidation from './FormsValidation/FormValidationBiginer';
 import AApp from './RouterReact/app';
 import Appe from './ContextAPI/App';
+import Context from './useContext/Context';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,12 +31,13 @@ const fruitsArray = [
             'dd',
 ]
 root.render(
-  <Appe/>
+  <Context />
+  // <Appe/>
   // <AApp/>
 /* <FormsValidation/> */
   // <PageParent />
   // <FormsReactuseRef/>
-/* <FormsReactuseState/> */
+/* <FormsReactuseState/> 
 
 
   // <Fruts />

@@ -17,7 +17,7 @@ export default function FormsReactuseRef() {
     name: '',
     prenom: '',
     age: '',
-    contres: 'MA',
+    contres: '',
     check: false,
   })
 
@@ -42,7 +42,7 @@ export default function FormsReactuseRef() {
 
 // bach ank t3ti chi 9yam par defoult   hnaya lkholasa hya  NAK ILA B4ITI T9IS CHIHAJAF DOM 9ISHA B USEREF BACH MATRANDRACH LPAGR KOLHA 
   useEffect(() => {
-    inputNameRef.current.value = 'zouhir'
+    inputNameRef.current.value = ''
     inputPrenomRef.current.focus()
     inputAgeRef.current.value = new Date().toISOString().substring(0, 10)
     inputContreyRef.current.value = 'ALG'
