@@ -17,6 +17,8 @@ import FormsValidation from './FormsValidation/FormValidationBiginer';
 import AApp from './RouterReact/app';
 import Appe from './ContextAPI/App';
 import Context from './useContext/Context';
+import Reducer from './useReducer/Reducer';
+import FormsReducer from './useReducer/FormsReducer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -31,7 +33,9 @@ const fruitsArray = [
             'dd',
 ]
 root.render(
-  <Context />
+  <FormsReducer/>
+  // <Reducer/>
+  // <Context />
   // <Appe/>
   // <AApp/>
 /* <FormsValidation/> */
