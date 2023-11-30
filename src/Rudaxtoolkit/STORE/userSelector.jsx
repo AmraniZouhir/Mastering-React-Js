@@ -1,0 +1,1 @@
+export const userSelector =(state)=>console.log(state)

@@ -19,7 +19,10 @@ import Appe from './ContextAPI/App';
 import Context from './useContext/Context';
 import Reducer from './useReducer/Reducer';
 import FormsReducer from './useReducer/FormsReducer';
-
+import './Rudax/RudaxExomple'
+import Countact from './RouterReact/PageApp/Countact';
+import CounterRudax from './Rudax/Counter';
+import Appp from './Rudaxtoolkit/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const fruitsArray = [
@@ -33,7 +36,9 @@ const fruitsArray = [
             'dd',
 ]
 root.render(
-  <FormsReducer/>
+  <Appp/>
+  // <CounterRudax/>
+  // <FormsReducer/>
   // <Reducer/>
   // <Context />
   // <Appe/>
